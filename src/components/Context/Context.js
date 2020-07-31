@@ -1,4 +1,4 @@
-import React, { useState, createContext, useEffect } from "react";
+import React, { useState, createContext } from "react";
 import Data from "../StartCoding/Data";
 
 export const CodeContext = createContext();
@@ -6,11 +6,10 @@ export const CodeContext = createContext();
 export const CodeState = ({ children }) => {
   const [data, setData] = useState(Data);
   const [currQuestion, setCurrQuestion] = useState(1);
-  useEffect(() => {
-  
-  }, []);
+  const [inputValue, setInputValue] = useState();
+
   return (
-    <CodeContext.Provider value={{ data, currQuestion, setCurrQuestion }}>
+    <CodeContext.Provider value={{ data, currQuestion, setCurrQuestion, inputValue, setInputValue }}>
       {children}
     </CodeContext.Provider>
   );

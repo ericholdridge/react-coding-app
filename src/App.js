@@ -11,9 +11,6 @@ function App() {
       <Router>
         <div className="App">
           <Route exact path="/" component={Hero} />
-          {/* <Route path="/startcoding">
-          <StartCoding />
-        </Route> */}
           <Route path="/question/:number" component={StartCoding} />
         </div>
       </Router>
