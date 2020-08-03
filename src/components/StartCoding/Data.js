@@ -1,37 +1,44 @@
 export default [
   {
-    question: "Center the text in the middle of the screen.",
+    question: "Center the text horizontally.",
     example: "For example, text-align: left; will move the text to the left.",
-    answer: "hello",
+    answer: "text-align: center;",
   },
   {
     question:
-      "Add 50px padding to the top, right, bottom, and left of the box.",
-      answer: "hey"
+      "Add 50 pixels of padding to the top, right, bottom, and left of the green bordered box.",
+    answer: "padding: 50px;",
   },
   {
-    question:
-      "Add 25px margin to the top of the element.",
-      answer: "hey"
+    question: "Add 25 pixels of margin to the top of the green bordered box.",
+    answer: "margin-top: 25px;",
   },
   {
-    question:
-      "Change the text color to red.",
-      answer: "hey"
+    question: "Remove the text-decoration/underline from the <a> tag.",
+    answer: "text-decoration: none;",
   },
   {
-    question:
-      "Add 50px padding to the top, right, bottom, and left of the box.",
-      answer: "hey"
+    question: "Remove the bullets from the list.",
+    answer: "list-style: none;",
   },
   {
-    question:
-      "Add 50px padding to the top, right, bottom, and left of the box.",
-      answer: "hey"
+    question: "Add a background color of #7F7FFF to the box.",
+    answer: "background-color: #7F7FFF;",
   },
   {
-    question:
-      "Add 50px padding to the top, right, bottom, and left of the box.",
-      answer: "hey"
+    question: "Change the text color from black to red;",
+    answer: "color: red;",
+  },
+  {
+    question: "Change the font-size to 25px",
+    answer: "font-size: 25px;",
+  },
+  {
+    question: "Add a border of 2px solid black around the box.",
+    answer: "border: 2px solid black;",
+  },
+  {
+    question: "Change the black bordered box to a circle using border-radius.",
+    answer: "border-radius: 50%;",
   },
 ];
